@@ -5,7 +5,8 @@
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	// "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye"
 	"service": "flask_gunicorn",
-	"dockerComposeFile": "../flask-docker-compose/docker-compose.yml"
+	"dockerComposeFile": "../flask-docker-compose/docker-compose.yml",
+	"workspaceFolder": "/app/flaskblog"
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
